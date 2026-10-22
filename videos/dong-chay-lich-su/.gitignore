@@ -1,0 +1,4 @@
+node_modules
+build
+# Media tải về hoặc tạo ra khi build (giọng đọc, ảnh tư liệu) không đưa vào git
+public/video01

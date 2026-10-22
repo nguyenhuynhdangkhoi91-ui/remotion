@@ -1,0 +1,2581 @@
+[
+ {
+  "text": "Thế kỷ mười ba, có một đế chế khiến cả thế giới run sợ.",
+  "visual": {
+   "type": "map",
+   "view": "world",
+   "from": "world",
+   "regions": [
+    "mongol_1259"
+   ],
+   "arrows": [],
+   "markers": [],
+   "labels": [],
+   "note": true,
+   "year": "Thế kỷ 13",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s000",
+  "dur": 3.124
+ },
+ {
+  "text": "Từ thảo nguyên Mông Cổ, vó ngựa của họ tràn tới tận Ba Lan và Hungary, xóa sổ nhà Kim ở phương Bắc, và từng bước dồn ép nhà Tống giàu có nhất phương Đông.",
+  "visual": {
+   "type": "map",
+   "view": "world",
+   "from": "world",
+   "regions": [
+    "mongol_1259"
+   ],
+   "arrows": [
+    {
+     "path": "karakorum>poland",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "karakorum>zhongdu",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "karakorum>baghdad",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s001",
+  "dur": 8.201
+ },
+ {
+  "text": "Đầu năm 1258, quân Mông Cổ phá thành Baghdad, kinh đô của nhà Abbas gần năm thế kỷ.",
+  "visual": {
+   "type": "image",
+   "src": "baghdad",
+   "caption": "Quân Mông Cổ vây Baghdad, tranh minh họa trong một bản chép tay thế kỷ 15",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s002",
+  "dur": 5.838
+ },
+ {
+  "text": "Cũng chính trong những tuần đó, ở tận phương Nam, một đạo quân Mông Cổ khác đã tiến vào một vương quốc nhỏ tên là Đại Việt.",
+  "visual": {
+   "type": "map",
+   "view": "eastasia",
+   "from": "world",
+   "regions": [],
+   "arrows": [
+    {
+     "path": "kunming>thanglong",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s003",
+  "dur": 5.949
+ },
+ {
+  "text": "Vương quốc ấy đã ba lần đối đầu với đế chế này: năm 1258, năm 1285 và năm 1288.",
+  "visual": {
+   "type": "timeline",
+   "items": [
+    [
+     "1258",
+     "Lần thứ nhất"
+    ],
+    [
+     "1285",
+     "Lần thứ hai"
+    ],
+    [
+     "1288",
+     "Lần thứ ba"
+    ]
+   ],
+   "active": -1
+  },
+  "pause": 0.35,
+  "id": "s004",
+  "dur": 7.519
+ },
+ {
+  "text": "Ba lần kinh thành Thăng Long bị bỏ trống. Ba lần kẻ xâm lược tưởng như đã thắng. Và cả ba lần, họ không thể ở lại.",
+  "visual": {
+   "type": "timeline",
+   "items": [
+    [
+     "1258",
+     "Lần thứ nhất"
+    ],
+    [
+     "1285",
+     "Lần thứ hai"
+    ],
+    [
+     "1288",
+     "Lần thứ ba"
+    ]
+   ],
+   "active": 2
+  },
+  "pause": 0.35,
+  "id": "s005",
+  "dur": 7.993
+ },
+ {
+  "text": "Đại Việt đã làm điều đó bằng cách nào? Vì sao đế chế từng khuất phục cả một vùng Á Âu rộng lớn lại không khuất phục được mảnh đất này?",
+  "visual": {
+   "type": "image",
+   "src": "bachdang_art",
+   "caption": "Trận Bạch Đằng 1288, tranh minh họa do kênh tự vẽ",
+   "kb": "in",
+   "focus": [
+    0.62,
+    0.55
+   ],
+   "tag": "Minh họa"
+  },
+  "pause": 0.35,
+  "id": "s006",
+  "dur": 7.11
+ },
+ {
+  "text": "Đây là Dòng Chảy Lịch Sử. Hôm nay, chúng ta sẽ đi từ năm 1258 cho đến tận ngày nay, bám theo những gì sử sách còn ghi lại.",
+  "visual": {
+   "type": "brand"
+  },
+  "pause": 0.6,
+  "id": "s007",
+  "dur": 8.311
+ },
+ {
+  "text": "Để hiểu cuộc chiến này, hãy lùi lại vài chục năm.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 1",
+   "title": "Hai thế giới",
+   "sub": "Thảo nguyên và đồng bằng sông Hồng"
+  },
+  "pause": 0.35,
+  "id": "s008",
+  "dur": 2.614
+ },
+ {
+  "text": "Năm 1206, Thiết Mộc Chân thống nhất các bộ lạc trên thảo nguyên và được tôn làm Thành Cát Tư Hãn.",
+  "visual": {
+   "type": "image",
+   "src": "genghis",
+   "caption": "Chân dung Thành Cát Tư Hãn, album hoàng đế nhà Nguyên, thế kỷ 14",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s009",
+  "dur": 5.674
+ },
+ {
+  "text": "Trong vài chục năm sau đó, quân Mông Cổ đánh xuống Trung Á, sang Ba Tư, lên nước Nga rồi tới tận Ba Lan và Hungary.",
+  "visual": {
+   "type": "map",
+   "view": "world",
+   "from": "world",
+   "regions": [
+    "mongol_1259"
+   ],
+   "arrows": [
+    {
+     "path": "karakorum>samarkand",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "samarkand>baghdad",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "karakorum>kyiv",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "kyiv>poland",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s010",
+  "dur": 6.583
+ },
+ {
+  "text": "Họ có đội kỵ binh cơ động bậc nhất thời đó, có thợ công thành giỏi, và một hệ thống trạm ngựa nối liền hàng nghìn dặm.",
+  "visual": {
+   "type": "image",
+   "src": "mongol_china1211",
+   "caption": "Kỵ binh Mông Cổ giao chiến, tranh minh họa sách sử Ba Tư, thế kỷ 15",
+   "kb": "left",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s011",
+  "dur": 5.786
+ },
+ {
+  "text": "Cùng thời gian đó, ở phương Nam, năm 1226, nhà Trần thay nhà Lý, mở ra một triều đại mới ở Đại Việt.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "eastasia",
+   "regions": [
+    "daiviet",
+    "champa",
+    "song",
+    "dali"
+   ],
+   "arrows": [],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s012",
+  "dur": 6.683
+ },
+ {
+  "text": "Đại Việt khi ấy gồm đồng bằng sông Hồng và dải đất ven biển kéo vào tới khoảng Quảng Bình, Quảng Trị ngày nay. Kinh đô là Thăng Long, chính là Hà Nội bây giờ.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "region",
+   "regions": [
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s013",
+  "dur": 8.625
+ },
+ {
+  "text": "Phía nam là vương quốc Chăm Pa. Phía bắc là nhà Tống, một đế quốc giàu có nhưng đang bị Mông Cổ dồn ép từng bước.",
+  "visual": {
+   "type": "image",
+   "src": "qingming",
+   "caption": "Thanh Minh thượng hà đồ, tranh thời Tống của Trương Trạch Đoan (chi tiết)",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s014",
+  "dur": 6.763
+ },
+ {
+  "text": "Và đây là điểm mấu chốt. Muốn nuốt trọn nhà Tống, Mông Cổ cần mở thêm một mũi tấn công từ phía tây nam.",
+  "visual": {
+   "type": "map",
+   "view": "eastasia",
+   "from": "region",
+   "regions": [
+    "mongol_1259",
+    "song",
+    "dali"
+   ],
+   "arrows": [
+    {
+     "path": "karakorum>chengdu",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "chengdu>dali",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s015",
+  "dur": 6.425
+ },
+ {
+  "text": "Năm 1253, họ đánh chiếm vương quốc Đại Lý ở Vân Nam. Từ đó, biên giới của đế chế chạm thẳng vào Đại Việt.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "eastasia",
+   "regions": [
+    "mongol_1259",
+    "song",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [],
+   "markers": [
+    "dali",
+    "kunming",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s016",
+  "dur": 7.573
+ },
+ {
+  "text": "Đại Việt bỗng nằm đúng trên con đường vòng mà quân Mông Cổ muốn đi, để đánh vào sau lưng nhà Tống.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "region",
+   "regions": [
+    "mongol_1259",
+    "song",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [
+    {
+     "path": "kunming>thanglong",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "thanglong>guangxi",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.6,
+  "id": "s017",
+  "dur": 4.824
+ },
+ {
+  "text": "Lần thứ nhất. Năm 1258.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 2",
+   "title": "Lần thứ nhất",
+   "sub": "1258"
+  },
+  "pause": 0.35,
+  "id": "s018",
+  "dur": 3.467
+ },
+ {
+  "text": "Mùa thu năm 1257, sứ giả Mông Cổ từ Vân Nam đến Thăng Long, đòi Đại Việt quy phục và mở đường cho quân Mông Cổ đi đánh Tống.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "region",
+   "regions": [
+    "mongol_1259",
+    "song",
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "kunming>thanglong",
+     "color": "neutral",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "kunming",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1257",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s019",
+  "dur": 7.221
+ },
+ {
+  "text": "Vua Trần Thái Tông không chấp nhận. Sứ giả bị bắt giam, triều đình ra lệnh giữ biên giới và truyền cho cả nước sắm sửa vũ khí.",
+  "visual": {
+   "type": "image",
+   "src": "tran_brick",
+   "caption": "Gạch trang trí thời Trần",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s020",
+  "dur": 7.249
+ },
+ {
+  "text": "Toàn thư chép rằng quân giữ biên giới khi ấy đặt dưới sự tiết chế của Trần Quốc Tuấn, người ba mươi năm sau sẽ khiến cả triều Nguyên phải kiêng dè.",
+  "visual": {
+   "type": "image",
+   "src": "thd_temple",
+   "caption": "Tượng Trần Hưng Đạo tại đền thờ ở Thành phố Hồ Chí Minh",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s021",
+  "dur": 6.768
+ },
+ {
+  "text": "Tháng Chạp năm Đinh Tỵ, tức tháng 1 năm 1258, tướng Ngột Lương Hợp Thai, con trai danh tướng Tốc Bất Đài, dẫn quân từ Vân Nam tràn xuống Bình Lệ Nguyên, thuộc vùng Vĩnh Phúc ngày nay.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "region",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "kunming>binhle",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "binhle",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1258",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s022",
+  "dur": 9.937
+ },
+ {
+  "text": "Quân số đạo quân này đến nay vẫn còn tranh cãi. Có học giả ước chỉ khoảng ba nghìn kỵ binh Mông Cổ cùng một vạn quân người Di ở Vân Nam. Sử Việt thì chép con số lớn hơn nhiều.",
+  "visual": {
+   "type": "fact",
+   "big": "3.000 – 30.000+",
+   "text": "Ước tính quân Mông Cổ năm 1258 rất khác nhau",
+   "sub": "Học giả phương Tây ước thấp; sử Việt chép cao hơn"
+  },
+  "pause": 0.35,
+  "id": "s023",
+  "dur": 10.469
+ },
+ {
+  "text": "Vua Trần Thái Tông đích thân đốc chiến, xông pha giữa làn tên đạn. Theo sử liệu phía Nguyên, quân Trần còn dùng cả voi chiến.",
+  "visual": {
+   "type": "image",
+   "src": "mongol_valiyan",
+   "caption": "Trận đánh của quân Mông Cổ, tranh minh họa sách sử Ba Tư, thế kỷ 15",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s024",
+  "dur": 7.331
+ },
+ {
+  "text": "Tướng Mông Cổ ra lệnh bắn tên vào chân voi. Voi hoảng loạn quay đầu, đội hình quân Trần rối loạn.",
+  "visual": {
+   "type": "image",
+   "src": "mongol_china1211",
+   "caption": "Kỵ binh và cung thủ Mông Cổ, tranh minh họa thế kỷ 15",
+   "kb": "in",
+   "focus": [
+    0.3,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s025",
+  "dur": 5.828
+ },
+ {
+  "text": "Giữa trận, võ tướng Lê Phụ Trần một mình một ngựa ra vào trận giặc, rồi khuyên vua tạm lánh. Khi quân giặc bắn loạn xạ, ông lấy ván thuyền che tên cho vua.",
+  "visual": {
+   "type": "quote",
+   "text": "Nay thì bệ hạ chỉ đánh một ván dốc túi thôi! Hãy nên tạm lánh chúng.",
+   "who": "Lê Phụ Trần can vua, năm 1258",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s026",
+  "dur": 8.843
+ },
+ {
+  "text": "Quân Trần lui về giữ sông Thiên Mạc. Vua ghé thuyền hỏi kế Thái úy Trần Nhật Hiệu. Nhật Hiệu không nói gì, chỉ lấy ngón tay chấm nước, viết lên mạn thuyền hai chữ: nhập Tống, nghĩa là chạy sang nước Tống nương nhờ.",
+  "visual": {
+   "type": "word",
+   "big": "入宋",
+   "small": "“Nhập Tống” – chạy sang nước Tống",
+   "src": "Theo Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s027",
+  "dur": 12.408
+ },
+ {
+  "text": "Vua lại đến hỏi Thái sư Trần Thủ Độ. Câu trả lời đã đi vào sử sách.",
+  "visual": {
+   "type": "image",
+   "src": "tran_lion",
+   "caption": "Sư tử đá thời Trần",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s028",
+  "dur": 4.5
+ },
+ {
+  "text": "Đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác.",
+  "visual": {
+   "type": "quote",
+   "text": "Đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác.",
+   "who": "Thái sư Trần Thủ Độ, năm 1258",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.7,
+  "id": "s029",
+  "dur": 2.823
+ },
+ {
+  "text": "Quân Mông Cổ tiến vào Thăng Long. Họ tìm thấy các sứ giả của mình trong ngục, một người đã chết. Theo sử liệu phía Nguyên, quân Mông Cổ đã trả thù bằng cách tàn sát cư dân trong thành.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "binhle>thanglong",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1/1258",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s030",
+  "dur": 10.588
+ },
+ {
+  "text": "Nhưng chiếm được kinh thành không có nghĩa là chiếm được đất nước. Chưa đầy mười ngày sau, quân Mông Cổ đã rời Thăng Long.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thanglong>binhle",
+     "color": "mongol",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s031",
+  "dur": 6.468
+ },
+ {
+  "text": "Toàn thư chép rằng ngày 24 tháng Chạp, vua và thái tử ngự lâu thuyền tiến đến Đông Bộ Đầu, đánh tan quân giặc. Trên đường rút, quân Mông Cổ còn bị chủ trại Quy Hóa là Hà Bổng dẫn dân binh miền núi chặn đánh.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thanglong>quyhoa",
+     "color": "mongol",
+     "dashed": true
+    },
+    {
+     "path": "thienmac>dongbodau",
+     "color": "viet",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "dongbodau",
+    "quyhoa"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s032",
+  "dur": 11.543
+ },
+ {
+  "text": "Vì cánh quân ấy rút đi mà không có ý chiếm đất, người đương thời gọi họ là giặc Phật.",
+  "visual": {
+   "type": "word",
+   "big": "Giặc Phật",
+   "small": "Cách gọi của người đương thời, theo Toàn thư",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s033",
+  "dur": 4.209
+ },
+ {
+  "text": "Có một góc nhìn khác ít được kể. Nhiều nhà nghiên cứu nước ngoài cho rằng Ngột Lương Hợp Thai rời đi chủ yếu vì nhiệm vụ chính của ông là đánh Tống, chứ không phải ở lại chiếm Đại Việt.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "daiviet",
+   "regions": [
+    "mongol_1259",
+    "song",
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thanglong>guangxi",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "guangxi>tanzhou",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s034",
+  "dur": 9.23
+ },
+ {
+  "text": "Sau trận này, nhà Trần chủ động sai sứ giao hảo và chấp nhận triều cống, đổi lấy hòa bình. Đánh khi buộc phải đánh, mềm mỏng về ngoại giao để giữ yên đất nước.",
+  "visual": {
+   "type": "image",
+   "src": "tran_cer1",
+   "caption": "Đồ gốm thời Trần",
+   "kb": "left",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s035",
+  "dur": 8.931
+ },
+ {
+  "text": "Lần đầu tiên, quân Mông Cổ chiếm được kinh thành nhưng không ở lại được. Bài học đầu tiên của nhà Trần đã thành hình: kinh thành có thể bỏ, nhưng quân đội và lòng người thì phải giữ.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 0,
+   "heading": "Bài học thứ nhất"
+  },
+  "pause": 0.7,
+  "id": "s036",
+  "dur": 9.669
+ },
+ {
+  "text": "Khoảng lặng trước giông bão.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 3",
+   "title": "Khoảng lặng trước giông bão",
+   "sub": "1259 – 1284"
+  },
+  "pause": 0.35,
+  "id": "s037",
+  "dur": 1.368
+ },
+ {
+  "text": "Năm 1259, Đại hãn Mông Kha qua đời khi đang đánh Tống. Em ông là Hốt Tất Liệt về sau giành được ngôi Đại hãn.",
+  "visual": {
+   "type": "image",
+   "src": "kublai",
+   "caption": "Chân dung Hốt Tất Liệt, album hoàng đế nhà Nguyên",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s038",
+  "dur": 7.536
+ },
+ {
+  "text": "Năm 1271, Hốt Tất Liệt lập ra nhà Nguyên. Năm 1279, nhà Tống chính thức diệt vong. Cả Trung Hoa nằm trong tay người Mông Cổ.",
+  "visual": {
+   "type": "map",
+   "view": "eastasia",
+   "from": "region",
+   "regions": [
+    "yuan_1280",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [],
+   "markers": [
+    "dadu",
+    "linan"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1279",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s039",
+  "dur": 10.379
+ },
+ {
+  "text": "Giờ đây, Hốt Tất Liệt quay sang phương Nam với những đòi hỏi ngày càng nặng: vua Đại Việt phải sang chầu, phải nộp sổ hộ khẩu, chịu thuế, và chấp nhận quan giám trị của nhà Nguyên.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "!",
+     "Vua phải sang chầu"
+    ],
+    [
+     "!",
+     "Nộp sổ hộ khẩu, chịu thuế"
+    ],
+    [
+     "!",
+     "Nhận quan giám trị"
+    ]
+   ],
+   "active": -1,
+   "heading": "Đòi hỏi của nhà Nguyên"
+  },
+  "pause": 0.35,
+  "id": "s040",
+  "dur": 9.029
+ },
+ {
+  "text": "Nhà Trần tìm đủ cách từ chối mà không gây chiến: cử sứ, gửi lễ vật, viện đủ mọi lý do.",
+  "visual": {
+   "type": "image",
+   "src": "tran_cer2",
+   "caption": "Đồ gốm thời Trần",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s041",
+  "dur": 5.501
+ },
+ {
+  "text": "Năm 1281, sứ Nguyên là Sài Xuân sang Thăng Long. Viên sứ này ngạo mạn cưỡi ngựa đi thẳng vào cửa cung, dùng roi quất lính canh bị thương ở đầu.",
+  "visual": {
+   "type": "image",
+   "src": "kublai_full",
+   "caption": "Album chân dung Hốt Tất Liệt, thế kỷ 14",
+   "kb": "left",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s042",
+  "dur": 9.049
+ },
+ {
+  "text": "Khi Trần Quang Khải đến sứ quán tiếp, Sài Xuân vẫn nằm khểnh không dậy. Nhưng khi Trần Quốc Tuấn đến, cạo tóc, mặc áo vải như một nhà sư phương Bắc, Sài Xuân lại đứng dậy vái chào. Tên lính hầu của hắn dùng tên chọc vào đầu ông đến chảy máu, sắc mặt Quốc Tuấn vẫn không hề thay đổi.",
+  "visual": {
+   "type": "quote",
+   "text": "Người hầu của Xuân cầm cái tên đứng sau Quốc Tuấn, chọc vào đầu đến chảy máu, nhưng sắc mặt Quốc Tuấn vẫn không hề thay đổi.",
+   "who": "Toàn thư chép việc năm 1281",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s043",
+  "dur": 15.875
+ },
+ {
+  "text": "Năm 1282, vua Trần Nhân Tông họp vương hầu, bá quan ở Bình Than, bàn kế đánh và giữ, chia nhau trấn giữ những nơi hiểm yếu.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [],
+   "markers": [
+    "binhthan",
+    "thanglong",
+    "vankiep"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1282",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s044",
+  "dur": 7.902
+ },
+ {
+  "text": "Hoài Văn hầu Trần Quốc Toản vì còn nhỏ tuổi nên không được dự bàn. Uất ức, cậu bóp nát quả cam trong tay lúc nào không biết, rồi về nhà tập hợp hơn nghìn gia nô và thân thuộc, giương cờ sáu chữ: Phá cường địch, báo hoàng ân.",
+  "visual": {
+   "type": "word",
+   "big": "Phá cường địch\nbáo hoàng ân",
+   "small": "Phá giặc mạnh, báo ơn vua",
+   "src": "Cờ của Trần Quốc Toản, theo Toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s045",
+  "dur": 12.525
+ },
+ {
+  "text": "Cuối năm 1282, nhà Nguyên sai Toa Đô đem quân vượt biển đánh Chăm Pa. Đại Việt giờ có nguy cơ bị kẹp từ cả phía bắc lẫn phía nam.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "delta",
+   "regions": [
+    "yuan_1280",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [
+    {
+     "path": "guangzhou>vijaya",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "vijaya",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1282–1283",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s046",
+  "dur": 8.53
+ },
+ {
+  "text": "Năm 1283, vua phong Trần Quốc Tuấn làm Quốc công tiết chế, thống lĩnh quân đội cả nước.",
+  "visual": {
+   "type": "image",
+   "src": "thd_temple",
+   "caption": "Tượng Trần Hưng Đạo tại đền thờ ở Thành phố Hồ Chí Minh",
+   "kb": "out",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s047",
+  "dur": 5.363
+ },
+ {
+  "text": "Cuối năm 1284, Thượng hoàng Trần Thánh Tông mời các bô lão trong nước về thềm điện Diên Hồng, ban yến và hỏi kế đánh giặc. Các bô lão đều nói đánh. Muôn người cùng hô một tiếng, như bật ra từ một miệng.",
+  "visual": {
+   "type": "word",
+   "big": "Đánh!",
+   "small": "Hội nghị Diên Hồng, cuối năm 1284",
+   "src": "Theo Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s048",
+  "dur": 13.009
+ },
+ {
+  "text": "Quân sĩ khắp nơi thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Thát Đát, tức quân Mông Cổ.",
+  "visual": {
+   "type": "word",
+   "big": "殺韃",
+   "small": "“Sát Thát” – giết giặc Mông Cổ",
+   "src": "Chữ quân Trần thích trên tay, theo Toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s049",
+  "dur": 5.031
+ },
+ {
+  "text": "Theo nhiều nhà nghiên cứu, bài Hịch tướng sĩ nổi tiếng của Trần Quốc Tuấn cũng ra đời trong giai đoạn chuẩn bị này.",
+  "visual": {
+   "type": "image",
+   "src": "kiepbac",
+   "caption": "Cổng đền Kiếp Bạc, nơi thờ Trần Hưng Đạo",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.7,
+  "id": "s050",
+  "dur": 5.008
+ },
+ {
+  "text": "Lần thứ hai. Năm 1285.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 4",
+   "title": "Lần thứ hai",
+   "sub": "1285"
+  },
+  "pause": 0.35,
+  "id": "s051",
+  "dur": 3.489
+ },
+ {
+  "text": "Đầu năm 1285, quân Nguyên do Trấn Nam vương Thoát Hoan, con trai Hốt Tất Liệt, chỉ huy, ồ ạt tràn qua biên giới. Họ lấy cớ mượn đường đi đánh Chăm Pa.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "region",
+   "regions": [
+    "yuan_1280",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [
+    {
+     "path": "tuminh>noibang",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "noibang>vankiep",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "vankiep",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1285",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s052",
+  "dur": 9.925
+ },
+ {
+  "text": "Sử Việt chép quân Nguyên có tới năm mươi vạn. Các nhà nghiên cứu ngày nay thường ước thấp hơn, nhưng dù tính theo cách nào, đây vẫn là một đạo quân khổng lồ.",
+  "visual": {
+   "type": "fact",
+   "big": "50 vạn?",
+   "text": "Con số Toàn thư chép cho quân Nguyên năm 1285",
+   "sub": "Ước tính hiện đại thấp hơn và còn tranh luận"
+  },
+  "pause": 0.35,
+  "id": "s053",
+  "dur": 8.403
+ },
+ {
+  "text": "Cùng lúc, cánh quân của Toa Đô từ Chăm Pa đánh ngược lên qua Nghệ An, Thanh Hóa. Hai gọng kìm từ bắc và nam cùng siết lại.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "daiviet",
+   "regions": [
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [
+    {
+     "path": "tuminh>vankiep",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "vijaya>nghean",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "nghean>thanhhoa",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong",
+    "thanhhoa"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s054",
+  "dur": 7.453
+ },
+ {
+  "text": "Quân Trần thua ở các ải biên giới, lui về Vạn Kiếp. Rồi Vạn Kiếp cũng vỡ.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "noibang>vankiep",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "vankiep",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s055",
+  "dur": 5.17
+ },
+ {
+  "text": "Bắt được lính Trần, quân Nguyên thấy trên tay ai cũng thích hai chữ Sát Thát. Chúng tức giận, giết hại rất nhiều.",
+  "visual": {
+   "type": "image",
+   "src": "moko_boarding",
+   "caption": "Binh lính nhà Nguyên, cuộn tranh Mông Cổ xâm lược Nhật Bản, khoảng năm 1293",
+   "kb": "left",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s056",
+  "dur": 6.397
+ },
+ {
+  "text": "Giữa lúc nguy cấp, một viên quan nhỏ là Đỗ Khắc Chung xin vào trại giặc. Tướng Nguyên Ô Mã Nhi chất vấn về hai chữ Sát Thát. Đỗ Khắc Chung bình thản đáp: chó nhà cắn người lạ, đâu phải lỗi của chủ. Đó là lòng trung phẫn của quân sĩ, nhà vua không hề hay biết.",
+  "visual": {
+   "type": "quote",
+   "text": "Chó nhà cắn người lạ không phải tại chủ nó. Vì lòng trung phẫn mà họ tự thích chữ thôi.",
+   "who": "Đỗ Khắc Chung đáp Ô Mã Nhi, năm 1285",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s057",
+  "dur": 16.345
+ },
+ {
+  "text": "Khi ông về rồi, Ô Mã Nhi nói với các tướng: nước này còn có người giỏi, chưa dễ mưu tính được.",
+  "visual": {
+   "type": "quote",
+   "text": "Nước nó còn có người giỏi, chưa dễ mưu tính được.",
+   "who": "Ô Mã Nhi, theo Toàn thư",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s058",
+  "dur": 5.202
+ },
+ {
+  "text": "Nhưng thế giặc vẫn rất mạnh. Thăng Long lại bị bỏ trống. Quân Nguyên vào kinh thành, chỉ thấy cung điện không người, còn lương thực đã được mang đi hết.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vankiep>thanglong",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s059",
+  "dur": 8.721
+ },
+ {
+  "text": "Tướng Trần Bình Trọng bị bắt ở bãi Đà Mạc. Giặc dụ hàng, hỏi ông có muốn làm vương đất Bắc không. Ông thét lớn.",
+  "visual": {
+   "type": "image",
+   "src": "moko_mitsui",
+   "caption": "Lính nhà Nguyên, bản chép lại đời sau của cuộn tranh Mông Cổ xâm lược Nhật Bản",
+   "kb": "right",
+   "focus": [
+    0.7,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s060",
+  "dur": 7.299
+ },
+ {
+  "text": "Ta thà làm ma nước Nam chứ không thèm làm vương đất Bắc.",
+  "visual": {
+   "type": "quote",
+   "text": "Ta thà làm ma nước Nam chứ không thèm làm vương đất Bắc.",
+   "who": "Trần Bình Trọng, năm 1285",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.7,
+  "id": "s061",
+  "dur": 2.659
+ },
+ {
+  "text": "Không phải ai cũng kiên cường như vậy. Một số tôn thất nhà Trần ra hàng, trong đó có Chiêu Quốc vương Trần Ích Tắc, em trai của Thượng hoàng.",
+  "visual": {
+   "type": "image",
+   "src": "tran_cer1",
+   "caption": "Đồ gốm thời Trần",
+   "kb": "out",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s062",
+  "dur": 7.813
+ },
+ {
+  "text": "Hai vua Trần phải đi thuyền nhỏ, có lúc bỏ thuyền đi bộ, rồi vượt biển vào Thanh Hóa để tránh mũi nhọn của giặc.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thanglong>thientruong",
+     "color": "viet",
+     "dashed": true
+    },
+    {
+     "path": "thientruong>thanhhoa",
+     "color": "viet",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "thanhhoa",
+    "thientruong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s063",
+  "dur": 5.479
+ },
+ {
+  "text": "Trong hoàn cảnh ấy, ta mới hiểu vì sao Toàn thư ghi lại một cuộc đối đáp. Thượng hoàng Trần Thánh Tông vờ bảo Trần Quốc Tuấn: thế giặc như vậy, ta phải hàng thôi. Quốc Tuấn trả lời.",
+  "visual": {
+   "type": "quote",
+   "text": "Thế giặc như vậy, ta phải hàng thôi.",
+   "who": "Thượng hoàng Trần Thánh Tông vờ hỏi",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s064",
+  "dur": 10.698
+ },
+ {
+  "text": "Bệ hạ chém đầu tôi trước rồi hãy hàng.",
+  "visual": {
+   "type": "quote",
+   "text": "[Bệ hạ] chém đầu tôi trước rồi hãy hàng.",
+   "who": "Trần Quốc Tuấn",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.8,
+  "id": "s065",
+  "dur": 2.007
+ },
+ {
+  "text": "Vậy chiến lược của nhà Trần là gì? Toàn thư chép lời vua Nhân Tông bàn với bầy tôi.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chiến lược",
+   "title": "Lấy nhàn chống mệt",
+   "sub": ""
+  },
+  "pause": 0.35,
+  "id": "s066",
+  "dur": 5.009
+ },
+ {
+  "text": "Giặc nhiều năm phải đi xa, lương thảo chuyên chở hàng vạn dặm, thế tất mỏi mệt. Lấy nhàn chống mệt, trước hết hãy làm chúng nhụt chí, thì ắt là đánh bại được chúng.",
+  "visual": {
+   "type": "quote",
+   "text": "Lấy nhàn chống mệt, trước hết hãy làm chúng nhụt chí, thì ắt là đánh bại được chúng.",
+   "who": "Vua Trần Nhân Tông, năm 1285",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s067",
+  "dur": 9.494
+ },
+ {
+  "text": "Nói cách khác, không đối đầu trực diện khi giặc đang mạnh. Rút lui, giữ quân, để kẻ thù tự hao mòn vì thiếu lương, vì nắng nóng và bệnh tật.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "tuminh>thanglong",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong",
+    "thanhhoa",
+    "thientruong"
+   ],
+   "labels": [
+    {
+     "at": "thanglong",
+     "text": "Thiếu lương · nắng nóng · dịch bệnh",
+     "dy": -70
+    }
+   ],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s068",
+  "dur": 8.508
+ },
+ {
+  "text": "Và đúng như vậy. Đến khoảng tháng 5 năm 1285, quân Nguyên bắt đầu đuối sức. Đường tiếp tế kéo quá dài, mùa hè oi bức, dịch bệnh lan trong doanh trại.",
+  "visual": {
+   "type": "image",
+   "src": "moko1",
+   "caption": "Cuộn tranh Mông Cổ xâm lược Nhật Bản, khoảng năm 1293",
+   "kb": "left",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s069",
+  "dur": 10.766
+ },
+ {
+  "text": "Nhà Trần phản công. Ở cửa Hàm Tử, quân của Chiêu Văn vương Trần Nhật Duật, trong đó có cả những người Tống lưu vong mặc áo Tống, đánh bại quân Nguyên. Quân Nguyên tưởng nhà Tống sang cứu, hoảng sợ bỏ chạy.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thientruong>hamtu",
+     "color": "viet",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "hamtu"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s070",
+  "dur": 12.459
+ },
+ {
+  "text": "Ở bến Chương Dương, Thượng tướng Trần Quang Khải cùng Trần Quốc Toản và các tướng đánh tan quân giặc, mở đường giành lại kinh thành.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "chuongduong>thanglong",
+     "color": "viet",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "chuongduong",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s071",
+  "dur": 6.088
+ },
+ {
+  "text": "Ở Tây Kết, quân Trần đánh bại đạo quân phía nam. Nguyên soái Toa Đô tử trận. Theo Toàn thư, vua Nhân Tông nhìn thủ cấp của Toa Đô, thương hại nói: người làm tôi phải nên như thế này. Rồi vua cởi áo ngự, sai đem liệm chôn.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "thientruong>tayket",
+     "color": "viet",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "tayket"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s072",
+  "dur": 14.805
+ },
+ {
+  "text": "Thoát Hoan tháo chạy về phương Bắc. Tướng Lý Hằng hộ vệ ông ta trúng tên độc mà chết. Toàn thư còn chép một chi tiết khó quên: quân Nguyên phải giấu Thoát Hoan vào trong một đồ vật bằng đồng để chạy thoát về Tư Minh.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vankiep>tuminh",
+     "color": "mongol",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "tuminh",
+    "vankiep"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s073",
+  "dur": 11.631
+ },
+ {
+  "text": "Tháng 6 âm lịch năm ấy, hai vua Trần trở về kinh sư. Thượng tướng Trần Quang Khải làm bài thơ còn truyền đến hôm nay.",
+  "visual": {
+   "type": "image",
+   "src": "tran_cer2",
+   "caption": "Đồ gốm thời Trần",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s074",
+  "dur": 6.895
+ },
+ {
+  "text": "Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù. Thái bình nên gắng sức, non nước ấy ngàn thu.",
+  "visual": {
+   "type": "quote",
+   "text": "Chương Dương cướp giáo giặc,\nHàm Tử bắt quân thù.\nThái bình nên gắng sức,\nNon nước ấy ngàn thu.",
+   "who": "Trần Quang Khải, bản dịch của Trần Trọng Kim",
+   "src": "Tụng giá hoàn kinh sư"
+  },
+  "pause": 0.7,
+  "id": "s075",
+  "dur": 5.953
+ },
+ {
+  "text": "Cuộc kháng chiến lần thứ hai kết thúc. Bài học thứ hai: lấy nhàn chống mệt, đánh vào lúc kẻ thù yếu nhất.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 1,
+   "heading": "Bài học thứ hai"
+  },
+  "pause": 0.7,
+  "id": "s076",
+  "dur": 6.317
+ },
+ {
+  "text": "Lần thứ ba. Năm 1287 đến 1288.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 5",
+   "title": "Lần thứ ba",
+   "sub": "1287 – 1288"
+  },
+  "pause": 0.35,
+  "id": "s077",
+  "dur": 4.99
+ },
+ {
+  "text": "Thua đau, Hốt Tất Liệt nổi giận. Ông hoãn cả kế hoạch đánh Nhật Bản lần thứ ba để dồn sức cho phương Nam.",
+  "visual": {
+   "type": "image",
+   "src": "kublai",
+   "caption": "Chân dung Hốt Tất Liệt, album hoàng đế nhà Nguyên",
+   "kb": "out",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s078",
+  "dur": 6.276
+ },
+ {
+  "text": "Lần này, nhà Nguyên còn có một quân bài chính trị: họ phong Trần Ích Tắc, người đã đầu hàng, làm An Nam quốc vương, định đưa về để thay nhà Trần.",
+  "visual": {
+   "type": "word",
+   "big": "An Nam quốc vương",
+   "small": "Tước nhà Nguyên phong cho Trần Ích Tắc",
+   "src": "Theo Toàn thư và các tài liệu về nhà Nguyên"
+  },
+  "pause": 0.35,
+  "id": "s079",
+  "dur": 7.713
+ },
+ {
+  "text": "Vua hỏi Trần Quốc Tuấn: thế giặc năm nay thế nào? Ông đáp rằng quân ta nay đã quen chiến trận, còn quân giặc sợ phải đi xa, lại nơm nớp vì thất bại năm trước. Phá được chúng là điều chắc chắn.",
+  "visual": {
+   "type": "quote",
+   "text": "Theo như thần thấy, phá được chúng là điều chắc chắn.",
+   "who": "Trần Quốc Tuấn, năm 1286",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s080",
+  "dur": 11.671
+ },
+ {
+  "text": "Khi có quan xin bắt thêm trai tráng cho đông quân, ông nói.",
+  "visual": {
+   "type": "image",
+   "src": "stakes3",
+   "caption": "Cọc gỗ được cho là dùng trong trận Bạch Đằng 1288, Bảo tàng Lịch sử Việt Nam",
+   "kb": "up",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s081",
+  "dur": 3.123
+ },
+ {
+  "text": "Quân quý ở tinh nhuệ, không quý ở số đông.",
+  "visual": {
+   "type": "quote",
+   "text": "Quân quý ở tinh nhuệ, không quý ở số đông.",
+   "who": "Trần Quốc Tuấn, năm 1287",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.7,
+  "id": "s082",
+  "dur": 2.555
+ },
+ {
+  "text": "Cuối năm 1287, quân Nguyên lại kéo sang, cả đường bộ từ Quảng Tây, Vân Nam lẫn đường biển từ Khâm Châu. Theo con số nhiều tài liệu dẫn lại, tổng quân số khoảng mười bảy vạn người.",
+  "visual": {
+   "type": "map",
+   "view": "region",
+   "from": "daiviet",
+   "regions": [
+    "yuan_1280",
+    "daiviet",
+    "champa"
+   ],
+   "arrows": [
+    {
+     "path": "tuminh>vankiep",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "kunming>thanglong",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "qinzhou>vandon",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "vankiep",
+    "vandon"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1287",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s083",
+  "dur": 11.091
+ },
+ {
+  "text": "Đi sau là một đoàn thuyền lương lớn do Trương Văn Hổ chỉ huy, chở hàng chục vạn thạch lương thực. Đó chính là mạch sống của đạo quân viễn chinh.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "region",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "qinzhou>vandon",
+     "color": "supply",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "qinzhou",
+    "vandon"
+   ],
+   "labels": [
+    {
+     "at": "qinzhou",
+     "text": "Thuyền lương Trương Văn Hổ",
+     "dy": -60
+    }
+   ],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s084",
+  "dur": 7.605
+ },
+ {
+  "text": "Được hỏi về tình hình, Trần Quốc Tuấn chỉ đáp ngắn gọn.",
+  "visual": {
+   "type": "image",
+   "src": "kiepbac1904",
+   "caption": "Đền Kiếp Bạc năm 1904, ảnh của André Salles",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s085",
+  "dur": 2.976
+ },
+ {
+  "text": "Năm nay đánh giặc nhàn.",
+  "visual": {
+   "type": "quote",
+   "text": "Năm nay đánh giặc nhàn.",
+   "who": "Trần Quốc Tuấn, cuối năm 1287",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.7,
+  "id": "s086",
+  "dur": 1.224
+ },
+ {
+  "text": "Thủy quân Nguyên của Ô Mã Nhi đi trước, vượt qua vùng biển Vân Đồn. Phó tướng Trần Khánh Dư không chặn nổi, bị Thượng hoàng sai người xiềng giải về kinh.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vandon>bachdang",
+     "color": "mongol",
+     "dashed": false
+    },
+    {
+     "path": "bachdang>vankiep",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "vandon",
+    "vankiep"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s087",
+  "dur": 8.212
+ },
+ {
+  "text": "Khánh Dư xin khất vài ngày để lập công chuộc tội. Ông đoán rằng chiến thuyền giặc đã qua, thì thuyền chở lương tất sẽ theo sau.",
+  "visual": {
+   "type": "quote",
+   "text": "Lấy quân pháp mà xử, tôi cam chịu tội, nhưng xin khất hai, ba ngày, để mưu lập công rồi về chịu tội.",
+   "who": "Trần Khánh Dư, theo Toàn thư",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s088",
+  "dur": 6.88
+ },
+ {
+  "text": "Và ông đoán đúng. Đoàn thuyền lương của Trương Văn Hổ kéo đến và bị quân Khánh Dư đánh tan. Lương thực, khí giới, phần bị thu, phần chìm xuống biển.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "qinzhou>vandon",
+     "color": "supply",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "vandon"
+   ],
+   "labels": [
+    {
+     "at": "vandon",
+     "text": "Trận Vân Đồn",
+     "dy": -60
+    }
+   ],
+   "note": true,
+   "year": "cuối 1287 – đầu 1288",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s089",
+  "dur": 9.762
+ },
+ {
+  "text": "Thượng hoàng tha tội cho Khánh Dư và nói: chỗ trông cậy của quân Nguyên là lương thảo khí giới, nay đã bị ta bắt được. Ông còn thả tù binh về trại giặc để báo tin, đánh thẳng vào tinh thần quân Nguyên.",
+  "visual": {
+   "type": "quote",
+   "text": "Chỗ trông cậy của quân Nguyên là lương thảo khí giới, nay đã bị ta bắt được.",
+   "who": "Thượng hoàng Trần Thánh Tông",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s090",
+  "dur": 10.728
+ },
+ {
+  "text": "Quân Nguyên vẫn chiếm được một Thăng Long trống rỗng, nhưng giờ họ lâm vào cảnh đói. Họ đi cướp lương khắp nơi, thậm chí đào phá lăng vua Trần Thái Tông ở Long Hưng.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vankiep>longhung",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "thanglong",
+    "longhung"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s091",
+  "dur": 8.901
+ },
+ {
+  "text": "Đến tháng 3 năm 1288, Thoát Hoan quyết định rút quân. Bộ binh rút theo đường Lạng Sơn. Thủy quân của Ô Mã Nhi rút theo sông Bạch Đằng ra biển.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vankiep>tuminh",
+     "color": "mongol",
+     "dashed": true
+    },
+    {
+     "path": "vankiep>bachdang",
+     "color": "mongol",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "vankiep",
+    "bachdang"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "3/1288",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s092",
+  "dur": 9.803
+ },
+ {
+  "text": "Trần Quốc Tuấn đã chờ sẵn ở đó.",
+  "visual": {
+   "type": "map",
+   "view": "delta",
+   "from": "daiviet",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [],
+   "markers": [
+    "bachdang"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.8,
+  "id": "s093",
+  "dur": 1.801
+ },
+ {
+  "text": "Bạch Đằng không phải dòng sông xa lạ. Năm 938, chính tại đây, Ngô Quyền đã dùng trận địa cọc đánh tan quân Nam Hán.",
+  "visual": {
+   "type": "timeline",
+   "items": [
+    [
+     "938",
+     "Ngô Quyền"
+    ],
+    [
+     "981",
+     "Lê Hoàn"
+    ],
+    [
+     "1288",
+     "Trần Hưng Đạo"
+    ]
+   ],
+   "active": -1
+  },
+  "pause": 0.35,
+  "id": "s094",
+  "dur": 7.899
+ },
+ {
+  "text": "Hơn ba thế kỷ sau, Trần Quốc Tuấn dùng lại cách đánh ấy. Gỗ lim, gỗ táu được đẽo nhọn, cắm xuống lòng sông ở những đoạn hiểm yếu, phủ cỏ lên trên. Khi nước triều lên, bãi cọc chìm kín dưới mặt nước.",
+  "visual": {
+   "type": "tide",
+   "phase": "high"
+  },
+  "pause": 0.35,
+  "id": "s095",
+  "dur": 12.864
+ },
+ {
+  "text": "Kế hoạch dựa vào thủy triều. Đánh nhử khi nước lên để địch đuổi vào sâu, rồi chờ nước rút, để chính dòng sông biến thành vũ khí.",
+  "visual": {
+   "type": "tide",
+   "phase": "lure"
+  },
+  "pause": 0.35,
+  "id": "s096",
+  "dur": 7.533
+ },
+ {
+  "text": "Ngày 8 tháng 3 năm Mậu Tý, tức ngày 9 tháng 4 năm 1288, đoàn thuyền của Ô Mã Nhi tiến vào sông Bạch Đằng.",
+  "visual": {
+   "type": "map",
+   "view": "bachdang",
+   "from": "delta",
+   "regions": [],
+   "arrows": [],
+   "markers": [
+    "bachdang"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "9/4/1288",
+   "rivers": false
+  },
+  "pause": 0.35,
+  "id": "s097",
+  "dur": 6.766
+ },
+ {
+  "text": "Lúc nước triều lên, quân Trần ra khiêu chiến rồi giả thua chạy. Quân Nguyên đuổi theo.",
+  "visual": {
+   "type": "tide",
+   "phase": "lure"
+  },
+  "pause": 0.35,
+  "id": "s098",
+  "dur": 5.16
+ },
+ {
+  "text": "Rồi nước triều bắt đầu rút. Những chiến thuyền lớn của quân Nguyên lần lượt mắc cọc, nghiêng đổ, vỡ toang.",
+  "visual": {
+   "type": "tide",
+   "phase": "low"
+  },
+  "pause": 0.35,
+  "id": "s099",
+  "dur": 6.35
+ },
+ {
+  "text": "Từ hai bên bờ, quân mai phục đổ ra. Hai vua Trần dẫn quân tiếp ứng. Toàn thư chép quân Nguyên chết đuối nhiều không kể xiết, nước sông vì thế đỏ ngầu.",
+  "visual": {
+   "type": "tide",
+   "phase": "attack"
+  },
+  "pause": 0.35,
+  "id": "s100",
+  "dur": 9.583
+ },
+ {
+  "text": "Đại Việt bắt được bốn trăm chiến thuyền. Ô Mã Nhi bị bắt sống.",
+  "visual": {
+   "type": "fact",
+   "big": "400",
+   "text": "chiến thuyền quân Nguyên bị bắt",
+   "sub": "Theo Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s101",
+  "dur": 4.198
+ },
+ {
+  "text": "Trên bộ, Thoát Hoan bị truy kích ráo riết, phải bỏ đường lớn, len lỏi qua rừng núi mới thoát về được Tư Minh. Cuộc xâm lược lần thứ ba sụp đổ hoàn toàn.",
+  "visual": {
+   "type": "map",
+   "view": "daiviet",
+   "from": "delta",
+   "regions": [
+    "daiviet"
+   ],
+   "arrows": [
+    {
+     "path": "vankiep>tuminh",
+     "color": "mongol",
+     "dashed": true
+    }
+   ],
+   "markers": [
+    "tuminh"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s102",
+  "dur": 8.869
+ },
+ {
+  "text": "Có một chi tiết ít được nhắc tới. Năm sau, khi trao trả tù binh, nhà Trần dùng kế của Hưng Đạo vương, cho người giỏi bơi lặn dùi thủng thuyền chở Ô Mã Nhi, khiến ông ta chết đuối. Chính sử gia Ngô Sĩ Liên về sau đã phê phán việc này là thất tín.",
+  "visual": {
+   "type": "quote",
+   "text": "Đã nói là đưa về nước lại dùng mưu kế để giết đi, thì thực quỷ quyệt quá lắm.",
+   "who": "Sử thần Ngô Sĩ Liên bình về việc năm 1289",
+   "src": "Đại Việt sử ký toàn thư"
+  },
+  "pause": 0.35,
+  "id": "s103",
+  "dur": 14.412
+ },
+ {
+  "text": "Lịch sử thật luôn có những góc khuất như vậy. Còn bài học thứ ba: đánh vào chỗ yếu nhất của kẻ thù là đường tiếp tế, và chọn chiến trường mà mình hiểu rõ hơn đối phương.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 2,
+   "heading": "Bài học thứ ba"
+  },
+  "pause": 0.7,
+  "id": "s104",
+  "dur": 9.12
+ },
+ {
+  "text": "Sau cuộc chiến.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 6",
+   "title": "Sau cuộc chiến",
+   "sub": "Đại Việt và thế giới"
+  },
+  "pause": 0.35,
+  "id": "s105",
+  "dur": 0.849
+ },
+ {
+  "text": "Thắng trận, nhưng nhà Trần không kiêu ngạo. Họ nhanh chóng sai sứ sang nhà Nguyên, giữ quan hệ triều cống để tránh thêm một cuộc chiến.",
+  "visual": {
+   "type": "image",
+   "src": "tran_cer1",
+   "caption": "Đồ gốm thời Trần",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s106",
+  "dur": 7.364
+ },
+ {
+  "text": "Vì cái giá của chiến tranh quá đắt. Cung điện ở kinh thành bị đốt phá, nhiều chùa chiền bị hủy hoại. Những năm 1290 đến 1292, nạn đói hoành hành.",
+  "visual": {
+   "type": "fact",
+   "big": "1290 – 1292",
+   "text": "Nạn đói sau chiến tranh",
+   "sub": "Cái giá của ba lần kháng chiến"
+  },
+  "pause": 0.35,
+  "id": "s107",
+  "dur": 11.217
+ },
+ {
+  "text": "Hốt Tất Liệt vẫn chưa nguôi. Theo các tài liệu tổng hợp, ông còn tính tới một cuộc tấn công lần thứ tư, nhưng kế hoạch dừng lại khi ông qua đời đầu năm 1294. Vua mới của nhà Nguyên cho bãi binh.",
+  "visual": {
+   "type": "image",
+   "src": "kublai_full",
+   "caption": "Album chân dung Hốt Tất Liệt, thế kỷ 14",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s108",
+  "dur": 12.201
+ },
+ {
+  "text": "Đặt cạnh bức tranh lớn, chiến thắng của Đại Việt càng đáng chú ý.",
+  "visual": {
+   "type": "map",
+   "view": "seas",
+   "from": "daiviet",
+   "regions": [
+    "yuan_1280",
+    "daiviet"
+   ],
+   "arrows": [],
+   "markers": [
+    "hakata",
+    "java",
+    "thanglong"
+   ],
+   "labels": [],
+   "note": true,
+   "year": null,
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s109",
+  "dur": 3.35
+ },
+ {
+  "text": "Năm 1274 và năm 1281, nhà Nguyên hai lần vượt biển đánh Nhật Bản. Cả hai lần, hạm đội gặp bão lớn và thất bại. Người Nhật gọi những cơn bão ấy là kamikaze, nghĩa là thần phong.",
+  "visual": {
+   "type": "image",
+   "src": "kikuchi",
+   "caption": "Hạm đội Mông Cổ gặp bão, tranh của Kikuchi Yōsai, năm 1847",
+   "kb": "up",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s110",
+  "dur": 12.978
+ },
+ {
+  "text": "Năm 1293, nhà Nguyên đánh Java. Ban đầu họ thắng, nhưng rồi bị chính đồng minh tại chỗ là Raden Wijaya quay lại đánh, phải rút về. Từ đó, vương quốc Majapahit trỗi dậy.",
+  "visual": {
+   "type": "map",
+   "view": "seas",
+   "from": "seas",
+   "regions": [
+    "yuan_1280"
+   ],
+   "arrows": [
+    {
+     "path": "quanzhou>java",
+     "color": "mongol",
+     "dashed": false
+    }
+   ],
+   "markers": [
+    "java"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1293",
+   "rivers": true
+  },
+  "pause": 0.35,
+  "id": "s111",
+  "dur": 12.747
+ },
+ {
+  "text": "Nhật Bản có bão. Java có một cuộc trở cờ. Còn Đại Việt, qua ba lần đối đầu, dựa chủ yếu vào sức người: chiến lược, sự đồng lòng, và hiểu biết về chính mảnh đất của mình.",
+  "visual": {
+   "type": "compare",
+   "items": [
+    [
+     "Nhật Bản",
+     "1274 · 1281",
+     "Bão lớn – “thần phong”"
+    ],
+    [
+     "Java",
+     "1293",
+     "Đồng minh trở cờ"
+    ],
+    [
+     "Đại Việt",
+     "1258 · 1285 · 1288",
+     "Chiến lược và lòng người"
+    ]
+   ]
+  },
+  "pause": 0.7,
+  "id": "s112",
+  "dur": 11.173
+ },
+ {
+  "text": "Vậy tóm lại, vì sao Đại Việt làm được điều đó? Có ba lý do lớn.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": -1,
+   "heading": "Ba lý do"
+  },
+  "pause": 0.35,
+  "id": "s113",
+  "dur": 4.674
+ },
+ {
+  "text": "Một: dám bỏ kinh thành để giữ lực lượng. Kẻ địch chiếm được những tòa thành trống, nhưng không tìm thấy đội quân chủ lực để tiêu diệt, cũng không tìm thấy lương thực.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 0,
+   "heading": "Ba lý do"
+  },
+  "pause": 0.35,
+  "id": "s114",
+  "dur": 8.765
+ },
+ {
+  "text": "Hai: đánh vào đường tiếp tế. Một đạo quân viễn chinh dù mạnh đến đâu cũng phải ăn. Trận Vân Đồn đã bẻ gãy chỗ dựa ấy.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 1,
+   "heading": "Ba lý do"
+  },
+  "pause": 0.35,
+  "id": "s115",
+  "dur": 8.261
+ },
+ {
+  "text": "Ba: biến thiên nhiên thành vũ khí. Nắng nóng và dịch bệnh bào mòn sức giặc, còn thủy triều sông Bạch Đằng khép lại cuộc chiến.",
+  "visual": {
+   "type": "cards",
+   "items": [
+    [
+     "1",
+     "Bỏ thành, giữ quân"
+    ],
+    [
+     "2",
+     "Đánh vào đường lương"
+    ],
+    [
+     "3",
+     "Biến thiên nhiên thành vũ khí"
+    ]
+   ],
+   "active": 2,
+   "heading": "Ba lý do"
+  },
+  "pause": 0.35,
+  "id": "s116",
+  "dur": 7.313
+ },
+ {
+  "text": "Và phía sau cả ba là con người: những người lính thích chữ Sát Thát, những bô lão ở Diên Hồng, và một vị tướng dám nói: chém đầu tôi trước rồi hãy hàng.",
+  "visual": {
+   "type": "image",
+   "src": "thd_temple",
+   "caption": "Tượng Trần Hưng Đạo tại đền thờ ở Thành phố Hồ Chí Minh",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.8,
+  "id": "s117",
+  "dur": 7.849
+ },
+ {
+  "text": "Dấu vết còn lại hôm nay.",
+  "visual": {
+   "type": "title",
+   "kicker": "Chương 7",
+   "title": "Dấu vết hôm nay",
+   "sub": "Từ 1300 đến nay"
+  },
+  "pause": 0.35,
+  "id": "s118",
+  "dur": 1.45
+ },
+ {
+  "text": "Năm 1300, Hưng Đạo vương Trần Quốc Tuấn qua đời tại Vạn Kiếp. Trước khi mất, ông dặn con phải hỏa táng, chôn kín, san phẳng đất và trồng cây như cũ, vì lo sau này giặc đến đào mả trả thù.",
+  "visual": {
+   "type": "image",
+   "src": "kiepbac1904",
+   "caption": "Đền Kiếp Bạc năm 1904, ảnh của André Salles",
+   "kb": "out",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s119",
+  "dur": 11.427
+ },
+ {
+  "text": "Ngày nay, đền Kiếp Bạc ở Chí Linh là nơi thờ ông. Lễ hội đền diễn ra hằng năm vào tháng Tám âm lịch, đúng dịp ngày giỗ.",
+  "visual": {
+   "type": "image",
+   "src": "kiepbac",
+   "caption": "Cổng đền Kiếp Bạc ngày nay",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s120",
+  "dur": 7.452
+ },
+ {
+  "text": "Năm 1953, khi đắp đê ở vùng Yên Giang, Quảng Yên, người dân phát hiện một bãi cọc gỗ lớn nằm sâu dưới bùn. Sau đó, các nhà khảo cổ còn tìm thấy những bãi cọc ở đồng Vạn Muối, đồng Má Ngựa.",
+  "visual": {
+   "type": "map",
+   "view": "bachdang",
+   "from": "delta",
+   "regions": [],
+   "arrows": [],
+   "markers": [
+    "yengiang",
+    "vanmuoi",
+    "mangua"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "1953 · 2005 · 2010",
+   "rivers": false
+  },
+  "pause": 0.35,
+  "id": "s121",
+  "dur": 12.324
+ },
+ {
+  "text": "Phân tích carbon phóng xạ trên nhiều mẫu cọc cho kết quả tập trung vào khoảng thế kỷ mười ba, phù hợp với trận đánh năm 1288.",
+  "visual": {
+   "type": "image",
+   "src": "stakes3",
+   "caption": "Cọc gỗ được cho là dùng trong trận Bạch Đằng 1288, Bảo tàng Lịch sử Việt Nam",
+   "kb": "in",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s122",
+  "dur": 6.86
+ },
+ {
+  "text": "Năm 2012, Khu di tích lịch sử chiến thắng Bạch Đằng được xếp hạng di tích quốc gia đặc biệt.",
+  "visual": {
+   "type": "fact",
+   "big": "2012",
+   "text": "Khu di tích chiến thắng Bạch Đằng",
+   "sub": "Được xếp hạng di tích quốc gia đặc biệt"
+  },
+  "pause": 0.35,
+  "id": "s123",
+  "dur": 5.02
+ },
+ {
+  "text": "Cuối năm 2019, ở Cao Quỳ, Hải Phòng, người ta phát hiện thêm một bãi cọc. Các nhà khoa học vẫn còn tranh luận nó có thuộc trận Bạch Đằng năm 1288 hay không. Lịch sử, vì thế, vẫn đang được viết tiếp.",
+  "visual": {
+   "type": "map",
+   "view": "bachdang",
+   "from": "bachdang",
+   "regions": [],
+   "arrows": [],
+   "markers": [
+    "caoquy",
+    "yengiang"
+   ],
+   "labels": [],
+   "note": true,
+   "year": "2019",
+   "rivers": false
+  },
+  "pause": 0.35,
+  "id": "s124",
+  "dur": 14.061
+ },
+ {
+  "text": "Năm 2025, quần thể di tích và danh thắng Yên Tử, Vĩnh Nghiêm, Côn Sơn, Kiếp Bạc, gắn liền với nhà Trần và Thiền phái Trúc Lâm, được UNESCO ghi danh là Di sản Thế giới.",
+  "visual": {
+   "type": "fact",
+   "big": "2025",
+   "text": "Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc",
+   "sub": "Được UNESCO ghi danh Di sản Thế giới"
+  },
+  "pause": 0.35,
+  "id": "s125",
+  "dur": 10.489
+ },
+ {
+  "text": "Hơn bảy trăm năm đã trôi qua, những cây cọc ấy vẫn nằm đó, như một lời nhắc: một đất nước nhỏ không có nghĩa là một đất nước yếu.",
+  "visual": {
+   "type": "image",
+   "src": "bachdang_art",
+   "caption": "Trận Bạch Đằng 1288, tranh minh họa do kênh tự vẽ",
+   "kb": "out",
+   "focus": [
+    0.62,
+    0.55
+   ],
+   "tag": "Minh họa"
+  },
+  "pause": 0.9,
+  "id": "s126",
+  "dur": 6.865
+ },
+ {
+  "text": "Ở video sau, chúng ta sẽ theo hạm đội Mông Cổ sang Nhật Bản, để xem vì sao người Nhật tin rằng thần linh đã cứu họ. Cùng một đế chế, nhưng hai cách thất bại rất khác nhau.",
+  "visual": {
+   "type": "image",
+   "src": "moko1",
+   "caption": "Cuộn tranh Mông Cổ xâm lược Nhật Bản, khoảng năm 1293",
+   "kb": "right",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "tag": "Tư liệu"
+  },
+  "pause": 0.35,
+  "id": "s127",
+  "dur": 9.906
+ },
+ {
+  "text": "Theo bạn, trong ba lý do vừa rồi, lý do nào quan trọng nhất? Hãy để lại ý kiến ở phần bình luận. Nếu thấy video hữu ích, hãy đăng ký Dòng Chảy Lịch Sử để cùng đi tiếp dòng chảy này. Nguồn tư liệu và hình ảnh được ghi đầy đủ trong phần mô tả.",
+  "visual": {
+   "type": "outro"
+  },
+  "pause": 1.5,
+  "id": "s128",
+  "dur": 14.918
+ }
+]

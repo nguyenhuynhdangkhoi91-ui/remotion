@@ -1,0 +1,26 @@
+{
+  "name": "dong-chay-lich-su-videos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Video kênh Dòng Chảy Lịch Sử dựng bằng Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@remotion/media-utils": "4.0.537",
+    "d3-geo": "3.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.537",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/react": "19.2.7",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.9.3"
+  }
+}
