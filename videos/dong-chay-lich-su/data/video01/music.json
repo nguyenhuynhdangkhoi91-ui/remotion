@@ -1,0 +1,13 @@
+[
+ {"start": 0, "track": "Impact_Prelude", "chapter": "Mở đầu"},
+ {"start": 50.4, "track": "Echoes_of_Time_v2", "chapter": "Chương 1"},
+ {"start": 126.6, "track": "Asian_Drums", "chapter": "Chương 2"},
+ {"start": 284.6, "track": "Lightless_Dawn", "chapter": "Chương 3"},
+ {"start": 408.5, "track": "Five_Armies", "chapter": "Chương 4"},
+ {"start": 524.1, "track": "Ishikari_Lore", "chapter": "Chiến lược"},
+ {"start": 628.6, "track": "Volatile_Reaction", "chapter": "Chương 5"},
+ {"start": 762.1, "track": "Clash_Defiant", "chapter": "Bạch Đằng"},
+ {"start": 852.1, "track": "Lord_of_the_Land", "chapter": "Chương 6"},
+ {"start": 968.5, "track": "Long_Road_Ahead_B", "chapter": "Chương 7"},
+ {"start": 1060.3, "track": "Heroic_Age", "chapter": "Kết"}
+]
