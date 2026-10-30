@@ -13,3 +13,11 @@ Video 1: ba lần kháng chiến chống Nguyên Mông (1258, 1285, 1287–1288)
 
 Ảnh tư liệu đặt ở `public/video01/img/<khóa>.jpg`, nguồn và giấy phép trong `src/video01/credits.ts`.
 Font tự host trong `public/fonts` (OFL) để render không cần mạng.
+
+## Video 4: bản đồ động Điện Biên Phủ (`MapDBP`)
+Video 4 dựng hình bằng pipeline Python riêng; Remotion chỉ làm các clip bản đồ.
+1. Nền địa hình: `python3 data/video04/relief.py` đọc ô DEM AWS Terrain Tiles (Terrarium) đã tải về `/tmp/w4/dem`, tô màu + đổ bóng.
+2. `python3 data/video04/geo_prep.py` xuất `public/video04/maps/region.jpg`, `valley.jpg`, `geo.json` (tọa độ điểm đã chiếu, biên giới Natural Earth).
+3. Mỗi cảnh là một mục trong bảng `S` của `src/video04/MapDBP.tsx`. Render một cảnh:
+   `npx remotion render src/index.ts MapDBP out.mp4 --props='{"scene":"map_a1","frames":250}'`.
+Vị trí cứ điểm là sơ đồ gần đúng, chân bản đồ ghi rõ điều này.
