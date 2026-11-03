@@ -19,7 +19,7 @@ type El =
 	| {k: 'marker'; at: string; label: string; sub?: string; color?: string; t0: number; pulse?: boolean; dx?: number; dy?: number}
 	| {k: 'pyramid'; at: string; label?: string; t0: number; s?: number; dx?: number}
 	| {k: 'line'; pts: (string | Pt)[]; color: string; t0: number; t1: number; dashed?: boolean; dots?: boolean; width?: number; label?: string; lx?: number; ly?: number}
-	| {k: 'boat'; pts: (string | Pt)[]; t0: number; t1: number; back?: number; loops?: number}
+	| {k: 'boat'; pts: (string | Pt)[]; t0: number; t1: number; back?: number; empty?: boolean; vis?: [number, number]}
 	| {k: 'label'; at: string | Pt; text: string; t0: number; size?: number; color?: string}
 	| {k: 'area'; at: string | Pt; r: number; t0: number; color?: string}
 	| {k: 'title'; text: string; sub?: string; t0: number}
@@ -122,12 +122,12 @@ const S: Record<string, Scene> = {
 			{k: 'marker', at: 'tura_q', label: 'Tura', color: GOLD, t0: 0},
 			{k: 'marker', at: 'basin', label: 'She-Khufu', color: NILE, t0: 0, dy: 1},
 			{k: 'line', pts: ROUTE, color: GOLD, t0: 0, t1: 0.01, width: 4, dashed: true},
-			{k: 'boat', pts: ROUTE, t0: 0.05, t1: 0.45, back: 0.85},
+			// khớp lời đọc: clip này bắt đầu ở câu "Ngày thứ ba", câu "Ngày thứ tư" ở khoảng p = 0,26
+			{k: 'boat', pts: ['basin', [340, 568]], t0: 0.02, t1: 0.2, vis: [0, 0.26]},
+			{k: 'boat', pts: ROUTE_BACK, t0: 0.28, t1: 0.92, empty: true, vis: [0.26, 1]},
 			{k: 'days', t0: 0, items: [
-				{t: 0, text: 'Ngày 1', sub: 'Ở Tura: chất đá lên thuyền'},
-				{t: 0.12, text: 'Ngày 2', sub: 'Xuôi dòng, ngủ đêm ở She-Khufu'},
-				{t: 0.32, text: 'Ngày 3', sub: 'Tới Akhet-Khufu, giao đá'},
-				{t: 0.5, text: 'Ngày 4', sub: 'Thuyền trống quay ngược về Tura'},
+				{t: 0, text: 'Ngày 3', sub: 'Rời She-Khufu, tới Akhet-Khufu'},
+				{t: 0.26, text: 'Ngày 4', sub: 'Thuyền trống ngược dòng về Tura'},
 			]},
 		],
 		note: 'Nhịp chuyến đi dịch ý theo Tallet · sơ đồ',
@@ -418,10 +418,11 @@ export const MapGiza: React.FC<{scene: string}> = ({scene}) => {
 				);
 			}
 			case 'boat': {
+				if (el.vis && (p < el.vis[0] || p >= el.vis[1])) return null;
 				const fwd = el.pts.map((q) => P(base, q));
 				const L = polyLen(fwd);
 				let pos: [number, number, number];
-				let loaded = true;
+				let loaded = !el.empty;
 				if (el.back !== undefined && p > el.t1) {
 					const u = interpolate(p, [el.t1 + 0.05, el.back], [0, 1], {...clamp, easing: ease});
 					const rev = [...fwd].reverse();
