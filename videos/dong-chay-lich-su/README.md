@@ -21,3 +21,11 @@ Video 4 dựng hình bằng pipeline Python riêng; Remotion chỉ làm các cli
 3. Mỗi cảnh là một mục trong bảng `S` của `src/video04/MapDBP.tsx`. Render một cảnh:
    `npx remotion render src/index.ts MapDBP out.mp4 --props='{"scene":"map_a1","frames":250}'`.
 Vị trí cứ điểm là sơ đồ gần đúng, chân bản đồ ghi rõ điều này.
+
+## Video 7: bản đồ và sơ đồ động kim tự tháp Giza (`MapGiza`)
+Giống video 4: hình chính dựng bằng pipeline Python, Remotion làm các clip bản đồ/sơ đồ.
+1. Tải ô DEM Terrarium (z8 x145–154 y102–111 cho Ai Cập; z12 x2401–2405 y1688–1692 cho Giza–Tura) về một thư mục, và GeoJSON Natural Earth (`ne_10m_rivers_lake_centerlines`, `ne_50m_admin_0_countries`).
+2. `python3 data/video07/geo_prep.py <dem_dir> <ne_dir> public/video07/maps` xuất `egypt.jpg`, `giza.jpg`, `geo.json` (điểm đã chiếu, sông Nile, biên giới Ai Cập, tuyến Aswan → Giza theo dòng Nile).
+3. Mỗi cảnh là một mục trong bảng `S` của `src/video07/MapGiza.tsx`; cảnh `diag_*` là sơ đồ không dùng nền bản đồ (giả thuyết dốc, số nhân công, thẻ nhật ký Merer, mốc thời gian). Render một cảnh:
+   `npx remotion render src/index.ts MapGiza out.mp4 --props='{"scene":"map_route","frames":250}'`.
+Đường thuyền Tura → Giza và nhánh sông cổ là sơ đồ; chân mỗi cảnh ghi rõ điều này. Thẻ nhật ký là đồ họa minh họa, nội dung dịch ý theo bản dịch của Pierre Tallet.
